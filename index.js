@@ -3,7 +3,7 @@ document.onreadystatechange = async function () {
         var xmlHttp = new XMLHttpRequest();
 
         xmlHttp.open('GET', "./beatmaps/", false);
-        xmlHttp.send(null);
+        xmlHttp.send();
 
         document.open();
         document.write(xmlHttp.responseText);
