@@ -1,5 +1,6 @@
 let beatmaps = [
-    "GoodViber - completely past life"
+    "GoodViber - completely past life",
+    "Trucks Factory - Bipolar Disorder at 203 BPM"
 ]
 
 let beatmapLocation = function ( name ) {
